@@ -1,13 +1,14 @@
 # The-Preparation-for-Coding-Test
 
 우선 최우선 219제를 먼저 풀고 그다음 부족한 부분을 메울예정이다.   
+   
 구성은 아래와 같다.
 <h2 id="100">100 - 기초 1 [1]</h2>
 <p> 기본적인 입출력 방식이나 코딩테스트에 필수적인 라이브러리를 사용하는 방법에 대해서 배울것입니다.</p>
-<ul>
   
 <h2 id="200-1">200 - 자료구조 1 [2]</h2>
 <p><strong>스택 (Stack)</strong>에 대해서 집중적으로 배워봅니다. 스택을 사용하는 문제를 이용해 <strong>스택의 어떤 성질</strong>을 이용해서 문제를 해결할 수 있는지 알아봅니다. 큐(Queue)와 덱(Deque)은 이 챕터에서 소개만 합니다. 두 자료구조는 그래프와 BFS 챕터에서 집중적으로 다루게 됩니다.</p>
+  
 <ul>
 <li><a href="https://www.acmicpc.net/problem/10828">스택</a></li>
 <li><a href="https://www.acmicpc.net/problem/9093">단어 뒤집기</a></li>
