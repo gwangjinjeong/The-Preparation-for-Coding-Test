@@ -1,6 +1,4 @@
-from itertools import combinations
-from itertools import permutations
-from itertools import product
+from itertools import permutations, combinations, product
 from itertools import combinations_with_replacement as cwr
 
 data = ['A','B','C']
