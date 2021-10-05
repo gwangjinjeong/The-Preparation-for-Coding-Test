@@ -334,6 +334,6 @@
 <li><a href="https://www.acmicpc.net/problem/1300">K번째 수</a></li>
 <li><a href="https://www.acmicpc.net/problem/1561">놀이 공원</a></li>
 </ul>
-출처[1]: https://code.plus/course/41
-출처[2]: https://code.plus/course/42
-출처[3]:https://code.plus/course/43
+출처[1]: https://code.plus/course/41   
+출처[2]: https://code.plus/course/42   
+출처[3]:https://code.plus/course/43   
