@@ -3,16 +3,32 @@
 우선 최우선 219제를 먼저 풀고 그다음 부족한 부분을 메울예정이다.   
 
 ---
-
-**2021. 10. 13 수정**<br>
-예상하지도 못하게 삼성전자 서류를 합격해버렸다. <br>
+**<center>2021. 10. 13 수정</center>**<br>
+예상하지도 못하게 삼성전자 서류를 합격해버렸다. 가장 우선이 되는 100문제를 풀어보자<br>
 나동빈씨의 말을 상당하게 신뢰하기 때문에 삼성전자 코딩테스트에 맞는 벼락치기를 진행하려한다. <br>
-1. **그리디** 50개
-2. **완전탐색문제** 50개
-3. **기본동적프로그래밍** 50개
-4. 삼성전자 소프트웨어 문제지 전부
+1. **그리디** 25개 <a href="https://www.acmicpc.net/workbook/view/4380"> 링크 </a>
+2. **완전탐색문제** 25개 <a href="https://www.acmicpc.net/workbook/view/1833"> 링크 </a>
+3. **기본동적프로그래밍** 25개 <a href="https://www.acmicpc.net/workbook/view/1984"> 링크 </a>
+4. **삼전 SW역량테스트** 25개<a href="https://www.acmicpc.net/workbook/view/1152"> 링크</a>
+
 풀어보는식으로 하겠다.
+<h4 id="520-">Day 01</h4>
+<ul>
+<li><a href="https://www.acmicpc.net/problem/18185">라면 사기 (Small)</a></li>
+<li><a href="https://www.acmicpc.net/problem/17420">DFS와 BFS</a></li>
+<li><a href="https://www.acmicpc.net/problem/2747">피보나치 수</a></li>
+<li><a href="https://www.acmicpc.net/problem/13460">구슬 탈출 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/17420">깊콘이 넘쳐흘러</a></li>
+<li><a href="https://www.acmicpc.net/problem/2178">미로 탐색</a></li>
+<li><a href="https://www.acmicpc.net/problem/1463">1로 만들기</a></li>
+<li><a href="https://www.acmicpc.net/problem/12100">2048 (Easy)</a></li>
+<li><a href="https://www.acmicpc.net/problem/3109">빵집</a></li>
+<li><a href="https://www.acmicpc.net/problem/10451">순열 사이클</a></li>
+</ul>
+
 ---
+
+
    
 구성은 아래와 같다.
 <h2 id="100">100 - 기초 1 [1]</h2>
