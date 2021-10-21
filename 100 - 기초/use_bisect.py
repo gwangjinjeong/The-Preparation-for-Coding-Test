@@ -4,10 +4,10 @@ from  bisect import bisect_left, bisect_right
 
 # example 1 사용법
 a = [1,2,3,4,4,8]
-x = 4
+x = 1
 
-print(bisect_left(a,x))
-print(bisect_right(a,x))
+print(bisect_left(a,x)) #3
+print(bisect_right(a,x)) #5
 
 # example 2 입력된 2개의 숫자 사이 요소 갯수 구하기
 def count_element_between_a_and_b(dataset,a,b):
@@ -15,4 +15,4 @@ def count_element_between_a_and_b(dataset,a,b):
     rgt = bisect_right(dataset,b)
     return abs(rgt -lft)
 
-print(count_element_between_a_and_b(a,8,3))
+print(count_element_between_a_and_b(a,8,3)) # 2
