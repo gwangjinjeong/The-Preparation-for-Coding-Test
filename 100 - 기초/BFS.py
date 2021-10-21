@@ -1,3 +1,5 @@
+from collections import deque
+
 def bfs(sn, am, v):
     queue = deque([sn])
     v[sn] = 0
