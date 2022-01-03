@@ -13,7 +13,7 @@ def untilBeOne(N, K):
             N = N -1
             cnt = cnt + 1
     return cnt
-print(untilBeOne(17,4)) #위는 한번 반복할때마다 반복횟수마다 기하급수적으로 올라간다.
+print(untilBeOne(3,4)) #위는 한번 반복할때마다 반복횟수마다 기하급수적으로 올라간다.
 
 def untilBeOne_dongbinna(N, K): # 동빈나는 코드가 좀 빨리 실행될 수 있도록 테크닉을 가미하였다.
     result = 0
@@ -24,6 +24,8 @@ def untilBeOne_dongbinna(N, K): # 동빈나는 코드가 좀 빨리 실행될 �
             break
         result += 1
         N //= K
+
+    result +=(n - 1)
     return result
 
-print(untilBeOne_dongbinna(17,4))
+print(untilBeOne_dongbinna(3,4))
