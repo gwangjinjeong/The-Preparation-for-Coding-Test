@@ -26,6 +26,5 @@ def untilBeOne_dongbinna(N, K): # 동빈나는 코드가 좀 빨리 실행될 �
         result += 1
         N //= K
     result += (N - 1)
-    print(result)
-
+    return result
 print(untilBeOne_dongbinna(3,4))
