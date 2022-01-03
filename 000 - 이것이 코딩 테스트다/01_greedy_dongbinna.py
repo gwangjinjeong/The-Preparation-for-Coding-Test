@@ -17,15 +17,15 @@ print(untilBeOne(3,4)) #위는 한번 반복할때마다 반복횟수마다 기�
 
 def untilBeOne_dongbinna(N, K): # 동빈나는 코드가 좀 빨리 실행될 수 있도록 테크닉을 가미하였다.
     result = 0
-    while(N!=1):
-        temp = (N // K) * K
-        result += (N - temp)
+    while 1:
+        tmp = (N // K) * K
+        result += (N - tmp)
+        N = tmp
         if N < K:
             break
         result += 1
         N //= K
-
-    result +=(n - 1)
-    return result
+    result += (N - 1)
+    print(result)
 
 print(untilBeOne_dongbinna(3,4))
