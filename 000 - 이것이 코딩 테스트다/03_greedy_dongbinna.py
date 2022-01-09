@@ -24,7 +24,7 @@ def explorer(N):
         result += 1
     return result
 print(explorer([1,1,4,2,2,1]))
-
+print(explorer([2,3, 1, 2, 2,]))
 
 def explorer_dongbinna(N):
     N.sort()
@@ -37,3 +37,4 @@ def explorer_dongbinna(N):
             cnt = 0
     return result
 print(explorer_dongbinna([1,1,4,2,2,1]))
+print(explorer_dongbinna([2,3, 1, 2, 2,]))
